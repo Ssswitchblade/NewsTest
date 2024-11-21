@@ -1,0 +1,10 @@
+# Xcode
+.DS_Store
+*.xcuserstate
+*.xcworkspace
+DerivedData/
+.idea/
+*.swp
+
+# CocoaPods
+Pods/

@@ -1,0 +1,35 @@
+PODS:
+  - Realm (20.0.0):
+    - Realm/Headers (= 20.0.0)
+  - Realm/Headers (20.0.0)
+  - RealmSwift (20.0.0):
+    - Realm (= 20.0.0)
+  - Swinject (2.9.1)
+
+DEPENDENCIES:
+  - RealmSwift (from `https://github.com/realm/realm-swift`, branch `community`)
+  - Swinject
+
+SPEC REPOS:
+  trunk:
+    - Realm
+    - Swinject
+
+EXTERNAL SOURCES:
+  RealmSwift:
+    :branch: community
+    :git: https://github.com/realm/realm-swift
+
+CHECKOUT OPTIONS:
+  RealmSwift:
+    :commit: 2be5d01b165e418b197141748fc52fda6246f657
+    :git: https://github.com/realm/realm-swift
+
+SPEC CHECKSUMS:
+  Realm: a799b5f9145623fb0bfe149fe81422863631dd0f
+  RealmSwift: f8c4354ebd5053343e6ab9f4eda244145308a51e
+  Swinject: a827d508c6270da03ec74e558e728917a888fa9b
+
+PODFILE CHECKSUM: 7635262135eedab1df0261344e06c666837ff5d6
+
+COCOAPODS: 1.15.2
